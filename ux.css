@@ -1,7 +1,3 @@
-img {
-    width: 100%;
-}
-
 #storyboard {
     width: 900px;
 }
@@ -11,8 +7,6 @@ body {
 }
 
 /*------------------  menu  --------------*/
-
-/* Dropdown Button */
 
 .dropbtn {
     background-color: gray;
@@ -61,15 +55,15 @@ body {
 
 /*------------------  h  --------------*/
 
+h1 {
+    color: black;
+    font-size: 3em;
+}
+
 h2 {
     background-color: grey;
     color: black;
     font-size: 2.5em;
-}
-
-h1 {
-    color: black;
-    font-size: 3em;
 }
 
 /*------------------  a1  --------------*/
@@ -80,7 +74,7 @@ h1 {
 
 
 #a1 .column {
-    text-align: center;
+    text-align: left;
     padding: 2vw 5vw 2vw 5vw;
 }
 
@@ -115,10 +109,17 @@ h1 {
 }
 
 
-#a4 .column {
-    text-align: center;
+#a4 txt {
+    text-align: left;
     padding: 2vw 5vw 2vw 5vw;
 }
+
+.column img {
+    text-align: right;
+    width: 20vw;
+    border: 5px darkgrey solid;
+}
+
 
 /*------------------  a5  --------------*/
 
@@ -142,3 +143,18 @@ h1 {
 #a6 .column {
     text-align: center;
     padding: 2vw 5vw 2vw 5vw;
+}
+
+
+
+
+img {
+    width: 20%;
+
+}
+
+
+txt {
+    left: 40%;
+
+}
